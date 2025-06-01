@@ -20,22 +20,19 @@ Smart Data Analyst enables business users and analysts to:
 
 ```
 Smart_data_Analyst/
-├── app.py                      # Flask backend for file upload, Q&A, and visualizations
-├── templates/
-│   └── index.html              # Clean HTML frontend UI
-├── static/
-│   └── style.css               # Frontend styling
-├── utils/
-│   ├── file_parser.py          # Parses CSV, XLSX, TXT files
-│   └── llama_prompt.py         # Sends prompt to Together.ai (LLM)
-├── notebook/
-│   └── smart_data_analyst.ipynb # Jupyter notebook with same functionality
+├── app.py                       # Flask backend for API routes
+├── frontend/
+│   └── index.html               # HTML + JS UI for file upload, query, visualization
+├── smart_data_analyst.ipynb     # Jupyter notebook for testing LLM + data
 ├── sample_files/
-│   ├── sample.csv              # Sample sales CSV (40+ columns)
-│   ├── sample.xlsx             # Excel version of the CSV
-│   └── sales_summary.txt       # Rich text sample (40+ lines)
-├── requirements.txt            # All required dependencies
-└── README.md                   # This file
+│   ├── sample.csv               # Rich sample with 40+ columns
+│   ├── sample.xlsx              # Excel version
+│   └── sales_summary.txt        # Text summary file (40+ lines)
+├── utils/
+│   ├── file_parser.py           # Parses .csv, .xlsx, .txt files
+│   └── llama_prompt.py          # Calls Together.ai LLM API
+├── requirements.txt             # Dependencies list
+└── README.md                    # This file
 ```
 
 ---
