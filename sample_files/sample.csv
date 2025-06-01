@@ -1,0 +1,9 @@
+Order ID,Product,Category,Sub-Category,Sales,Quantity,Discount,Profit,Order Date,Region
+CA-2017-152156,Bookcase,Furniture,Bookcases,261.96,2,0,41.9136,2017-11-08,West
+CA-2017-152156,Chair,Furniture,Chairs,731.94,3,0,219.582,2017-11-08,West
+CA-2017-138688,Label,Office Supplies,Labels,14.62,2,0,6.8714,2017-06-12,Central
+US-2016-108966,Table,Furniture,Tables,957.5775,5,0.45,-383.031,2016-10-11,South
+US-2016-108966,Storage,Office Supplies,Storage,22.368,2,0.2,2.5164,2016-10-11,South
+CA-2015-115812,Phones,Technology,Phones,907.152,3,0.2,90.7152,2015-06-09,West
+CA-2015-115812,Binders,Office Supplies,Binders,15.552,2,0.2,4.6656,2015-06-09,West
+CA-2015-115812,Paper,Office Supplies,Paper,25.248,3,0.2,3.786,2015-06-09,West
